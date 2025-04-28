@@ -79,6 +79,12 @@ def main():
                 {"role": "assistant", "content": "Hello! I'm your Home Improvement Advisor. How can I help you with your renovation or DIY projects today?"}
             ]
             st.rerun()
+        # Developer info
+        st.markdown("---")
+        st.markdown("### Developed by:")
+        st.markdown("- **Mohd Ahmad** (12321720)")
+        st.markdown("- **Supriyo Tandi** (12326766)")
+        st.markdown("---")
 
 if __name__ == "__main__":
     main()
